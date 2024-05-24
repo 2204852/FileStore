@@ -10,13 +10,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>ᴍɪᴋᴇʏ</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/CodeFlix_Bots'>ᴄᴏᴅᴇғʟɪx ʙᴏᴛs</a>\n○ ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Team_Netflix'>ᴛᴇᴀᴍ ɴᴇᴛғʟɪx</a>\n○ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/otakuflix_network'>ᴏᴛᴀᴋᴜғʟɪx ɴᴇᴛᴡᴏʀᴋ</a>\n○ ᴀɴɪᴍᴇ ᴄʜᴀᴛ : <a href='https://t.me/weebzonex'>ᴡᴇᴇʙ ᴢᴏɴᴇ</a></b>",
+            text = f"<b>🤖 ᴍʏ ɴᴀᴍᴇ :</b> <a href='https://t.me/Anime_all_file_store_bot'>ᵀᴴᴱ ᶜᴵᴰ ᴬᴺᴵᴹᴱ</a> \n<b>📝 ʟᴀɴɢᴜᴀɢᴇ :</b> <a href='https://python.org'>ᴾʸᵗʰᵒⁿ 3</a> \n<b>📚 ʟɪʙʀᴀʀʏ :</b> <a href='https://pyrogram.org'>ᴾʸʳᵒᵍʳᵃᵐ {__version__}</a> \n<b>🚀 ꜱᴇʀᴠᴇʀ :</b> <a href='https://heroku.com'>ᴴᵉʳᵒᵏᵘ</a> \n<b>📢 ᴄʜᴀɴɴᴇʟ :</b> <a href='https://t.me/THECIDANIME'>ᵀᴴᴱᶜᴵᴰᴬᴺᴵᴹᴱ</a> \n<b>🧑‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ :</b> <a href='tg://user?id={OWNER_ID}'>ᵀᴴᴱᶜᴵᴰᴬᴺᴵᴹᴱ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
                     InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close"),
-                    InlineKeyboardButton('🍁 ᴘʀᴇᴍɪᴜᴍ', url='https://t.me/OtakuFlix_Network/4639')
+                    InlineKeyboardButton('🍁 sʜᴀᴅᴏᴡɢᴀʀᴅᴇɴ', url='https://t.me/OtakuFlix_Network/4639')
                     ]
                 ]
             )
